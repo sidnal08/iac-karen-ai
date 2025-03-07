@@ -27,7 +27,7 @@ terraform {
   }
 
   backend "s3" {
-    bucket = "vprofileactions060325"
+    bucket = "karen-ai-python-app"
     key    = "terraform.tfstate"
     region = "us-east-2"
   }
